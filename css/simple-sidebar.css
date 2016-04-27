@@ -57,9 +57,12 @@
 }
 
 .myCarousel .item {
-  position: absolute;
-  width: 100%;
-  height: auto;
+	  position: center;
+	  height: auto;
+}
+	
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
 }
 
 .sidebar-nav {
